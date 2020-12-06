@@ -1,0 +1,25 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Embed Generator</title>
+<meta name="description" content="Generate your own twitter embeds">
+<meta name="twitter:title" content="Twitter embed generator ">
+<meta name="twitter:description" content=" Generate your own twitter embeds">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div id="page">
+<div id="generator">
+<form method="POST" action="generate.php" accept-charset="utf-8">
+   <p>Fields marked with * are required</p>
+    <input placeholder="Title*" id="title" type="text" name="title" autocomplete="off" autocorrect="off" /><br>
+        <input placeholder="Description*" id="desc" type="text" name="desc" autocomplete="off" autocorrect="off" /><br>
+            <input placeholder="Image URL" id="image" type="text" name="image" autocomplete="off" autocorrect="off" /><br>
+    <input type="submit" value="Generate embed URL" />
+   <!-- <p>Color is in hex but DON'T put the # or it won't work. Click <</p> -->
+</form>
+</div>
+</div>
+</body>
+</html>
