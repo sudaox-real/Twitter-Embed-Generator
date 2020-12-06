@@ -18,5 +18,6 @@ $urlm = str_ireplace(" ", "%20", $urlm);
 $url = "Paste this URL Into Twitter: " . $urlm;
 $url = htmlspecialchars($url)
 ?>
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- why the fuck did i put the viewport here it's not gonna do jackshit --> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <center><p><?php echo($url); ?></p></center>
